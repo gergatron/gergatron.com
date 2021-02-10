@@ -4,8 +4,10 @@ import styled from 'styled-components'
 
 import SEO from 'react-seo-component'
 import { ogImageUrl } from '../util/build-og-image-url'
+
 import { MugFace } from '../components/mug-face'
 import { NavItems } from '../components/nav-items'
+import Scene from "../components/scene"
 
 // import { BackToTop } from '../components/back-to-top'
 // import { useOnScreen } from '../hooks/use-on-screen'
@@ -72,6 +74,7 @@ export default () => {
         twitterUsername={twitterUsername}
       />
       <LandingPage>
+        <Scene />
         <MugFace />
         <section ref={ref}>
           <NavItems />

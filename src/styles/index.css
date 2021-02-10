@@ -2,3 +2,18 @@
   font-family: 'GREY';
   src: url('../GREY.ttf') format('truetype');
 }
+
+body {
+  background : url('https://lab.hengpatrick.fr/three-js-audio-experiment/preview.png') center;
+  background-size : cover;
+}
+
+canvas {
+  height: 100%; 
+  width: 100%; 
+  
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  z-index: -100; 
+}
