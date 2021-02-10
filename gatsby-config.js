@@ -105,22 +105,22 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-source-graphql`,
-      options: {
-        typeName: `GitHub`,
-        fieldName: `github`,
-        url: `https://api.github.com/graphql`,
-        headers: {
-          Authorization: `bearer ${process.env.GATSBY_GITHUB_TOKEN}`,
-        },
-        fetchOptions: {},
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-graphql`,
+    //   options: {
+    //     typeName: `GitHub`,
+    //     fieldName: `github`,
+    //     url: `https://api.github.com/graphql`,
+    //     headers: {
+    //       Authorization: `bearer ${process.env.GATSBY_GITHUB_TOKEN}`,
+    //     },
+    //     fetchOptions: {},
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/2019/*`, `/2020/*`],
+        precachePages: [`/2020/*`],
       },
     },
     // `gatsby-plugin-remove-serviceworker`,
