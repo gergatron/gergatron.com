@@ -94,10 +94,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spences10/gergatron.com.git"
+    "url": "git+https://github.com/gergatron/gergatron.com.git"
   },
   "bugs": {
-    "url": "https://github.com/spences10/gergatron.com/issues"
+    "url": "https://github.com/gergatron/gergatron.com/issues"
   },
-  "homepage": "https://github.com/spences10/gergatron.com#readme"
+  "homepage": "https://github.com/gergatron/gergatron.com#readme"
 }
